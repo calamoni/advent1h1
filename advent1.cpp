@@ -36,8 +36,6 @@ int main() {
     int firstDigit = Extractfirstdigit(line);
     int lastDigit = Extractlastdigit(line);
 
-    // int twoDigitNumber = firstDigit + lastDigit;
-
     unsigned int firstDigit_copy = firstDigit;
     unsigned int lastDigit_copy = lastDigit;
 
@@ -57,9 +55,6 @@ int main() {
     std::cout << sumOfTwoDigitNumbers << std::endl;
     }
     
-
-        //std::cout << twoDigit << std::endl;
-
 
    file.close();
    
