@@ -25,7 +25,7 @@ int Extractlastdigit(const std::string& str) {
 
 
 int main() {
-    std::string filepath = "/Users/nate/Downloads/adventimport.txt";
+    std::string filepath = "your_path_here";
 
     std::ifstream file(filepath);
 
@@ -57,7 +57,7 @@ int main() {
     
 
    file.close();
-   
+   //
 
    return 0;
 }
